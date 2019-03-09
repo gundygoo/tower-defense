@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BaseTower : MonoBehaviour
+public abstract class BaseTower : MonoBehaviour
 {
     // The damage of the tower
     protected int damage;
@@ -14,6 +14,8 @@ public class BaseTower : MonoBehaviour
     protected int rateOfFire;
 
     protected Attack attack;
+
+    protected abstract void Init();
 
     // Start is called before the first frame update
     void Start()
