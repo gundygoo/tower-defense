@@ -15,9 +15,4 @@ public class NonTargetedTower : BaseTower
     {
         
     }
-
-    public IBaseEnemy NonTarget()
-    {
-        throw new System.NotImplementedException();
-    }
 }
