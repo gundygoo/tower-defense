@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class TargetedTower : BaseTower
 {
+    private SpriteRenderer mySpriteRenderer;
 
     protected IBaseEnemy target;
 
@@ -18,12 +19,17 @@ public class TargetedTower : BaseTower
     // Start is called before the first frame update
     void Start()
     {
-        
+        mySpriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void Select()
+    {
+        mySpriteRenderer.enabled = !mySpriteRenderer.enabled;
     }
 }

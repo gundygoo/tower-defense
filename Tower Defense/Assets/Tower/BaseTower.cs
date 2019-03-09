@@ -14,9 +14,6 @@ public abstract class BaseTower : MonoBehaviour
     // The image for the tower
     protected Image towerImage;
 
-    // Placeholder sprite for the tower
-    public Sprite tower;
-
     // The Idle Animation for the tower 
     public Animation towerIdle;
 
