@@ -18,7 +18,7 @@ public class BaseTower : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        attack = Attack.Fire;
+        attack = Attack.Basic;
     }
 
     // Update is called once per frame
