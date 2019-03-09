@@ -3,7 +3,8 @@ using UnityEditor;
 
 public enum Attack
 {
+    Basic,
     Ice,
     Fire,
-    Tack
+    Cannon
 }

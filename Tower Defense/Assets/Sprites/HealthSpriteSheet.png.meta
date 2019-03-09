@@ -1,0 +1,928 @@
+fileFormatVersion: 2
+guid: e84c7af5407391a4b9ea64114f48dec1
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HealthSpriteSheet_0
+    21300002: HealthSpriteSheet_1
+    21300004: HealthSpriteSheet_2
+    21300006: HealthSpriteSheet_3
+    21300008: HealthSpriteSheet_4
+    21300010: HealthSpriteSheet_5
+    21300012: HealthSpriteSheet_6
+    21300014: HealthSpriteSheet_7
+    21300016: HealthSpriteSheet_8
+    21300018: HealthSpriteSheet_9
+    21300020: HealthSpriteSheet_10
+    21300022: HealthSpriteSheet_11
+    21300024: HealthSpriteSheet_12
+    21300026: HealthSpriteSheet_13
+    21300028: HealthSpriteSheet_14
+    21300030: HealthSpriteSheet_15
+    21300032: HealthSpriteSheet_16
+    21300034: HealthSpriteSheet_17
+    21300036: HealthSpriteSheet_18
+    21300038: HealthSpriteSheet_19
+    21300040: HealthSpriteSheet_20
+    21300042: HealthSpriteSheet_21
+    21300044: HealthSpriteSheet_22
+    21300046: HealthSpriteSheet_23
+    21300048: HealthSpriteSheet_24
+    21300050: HealthSpriteSheet_25
+    21300052: HealthSpriteSheet_26
+    21300054: HealthSpriteSheet_27
+    21300056: HealthSpriteSheet_28
+    21300058: HealthSpriteSheet_29
+    21300060: HealthSpriteSheet_30
+    21300062: HealthSpriteSheet_31
+    21300064: HealthSpriteSheet_32
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HealthSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641416e55d46f884899412be1db16fa9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210002954d21ac8419223e81c9b7b929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 60
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac8ab2ca3fbdd54f85b86b8b51362ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 58
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2715ac9e387dba45854b1214017ef3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24e3224bdaf44d4e9389773818f3262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c1bc3f68adb4e4881507bac48aa383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9d2bffc5a3e3b469103a9eef4ec3a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6b25cf2b138bb47b25b1c7d9fbf771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2843ce1d40936444b29be312b2bb339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f2670d02e20184cba015a0a15e3e41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b874e070e1e429a4d92deeb8c74f636f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f704d7a26c221e84d8d8b8070b05945e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6783e96d6b03a4da3d42a83adf62eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d10dc9767892440a7ef7a88e53a777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e86e5aa7544b3040a9316a6c17862eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430ff4fdf1b34244dbfbe4398987c880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69968979d8811d408ec4cc5fc829ea1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271cb18237d711743bd13a1c4c693c49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0e8cb1b07eda14a8355eac2f54f420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98092ac1f87c204ea856ea3c1a8de4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82cc3537091e1e4ca59424d0da70791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e10d26bdc36384eaf2a6ed3e70368c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8dc5395e0c02a241b1a709663c0d1be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051f72b8743bdb8408e6fd71ea193112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350e361217ab466498dc6c6c39bf9955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352e6263555cf3543a90b9370c3f2b64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971d52ebb5abded48a6bb3a2edf2ae41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfc6bb51962d2a40aa6a8d1babea51b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b97aa8e028c218438f39b2a464f6920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27674b564b2add47a26741cad84a2dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f7e0b6d5c6f3e468030ea0dfedc891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bab39444ac5d341abfa666ef7c4a74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HealthSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f7330d0f69d7a4fb2f826200b4802d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -16, y: 31}
+      - {x: -16, y: 33}
+      - {x: 16, y: 33}
+      - {x: 16, y: 31}
+    - - {x: -16, y: 29}
+      - {x: -16, y: 31}
+      - {x: 16, y: 31}
+      - {x: 16, y: 29}
+    - - {x: -16, y: 27}
+      - {x: -16, y: 29}
+      - {x: 16, y: 29}
+      - {x: 16, y: 27}
+    - - {x: -16, y: 25}
+      - {x: -16, y: 27}
+      - {x: 16, y: 27}
+      - {x: 16, y: 25}
+    - - {x: -16, y: 23}
+      - {x: -16, y: 25}
+      - {x: 16, y: 25}
+      - {x: 16, y: 23}
+    - - {x: -16, y: 21}
+      - {x: -16, y: 23}
+      - {x: 16, y: 23}
+      - {x: 16, y: 21}
+    - - {x: -16, y: 19}
+      - {x: -16, y: 21}
+      - {x: 16, y: 21}
+      - {x: 16, y: 19}
+    - - {x: -16, y: 17}
+      - {x: -16, y: 19}
+      - {x: 16, y: 19}
+      - {x: 16, y: 17}
+    - - {x: -16, y: 15}
+      - {x: -16, y: 17}
+      - {x: 16, y: 17}
+      - {x: 16, y: 15}
+    - - {x: -16, y: 13}
+      - {x: -16, y: 15}
+      - {x: 16, y: 15}
+      - {x: 16, y: 13}
+    - - {x: -16, y: 11}
+      - {x: -16, y: 13}
+      - {x: 16, y: 13}
+      - {x: 16, y: 11}
+    - - {x: -16, y: 9}
+      - {x: -16, y: 11}
+      - {x: 16, y: 11}
+      - {x: 16, y: 9}
+    - - {x: -16, y: 7}
+      - {x: -16, y: 9}
+      - {x: 16, y: 9}
+      - {x: 16, y: 7}
+    - - {x: -16, y: 5}
+      - {x: -16, y: 7}
+      - {x: 16, y: 7}
+      - {x: 16, y: 5}
+    - - {x: -16, y: 3}
+      - {x: -16, y: 5}
+      - {x: 16, y: 5}
+      - {x: 16, y: 3}
+    - - {x: -16, y: 1}
+      - {x: -16, y: 3}
+      - {x: 16, y: 3}
+      - {x: 16, y: 1}
+    - - {x: -16, y: -1}
+      - {x: -16, y: 1}
+      - {x: 16, y: 1}
+      - {x: 16, y: -1}
+    - - {x: -16, y: -3}
+      - {x: -16, y: -1}
+      - {x: 16, y: -1}
+      - {x: 16, y: -3}
+    - - {x: -16, y: -5}
+      - {x: -16, y: -3}
+      - {x: 16, y: -3}
+      - {x: 16, y: -5}
+    - - {x: -16, y: -7}
+      - {x: -16, y: -5}
+      - {x: 16, y: -5}
+      - {x: 16, y: -7}
+    - - {x: -16, y: -9}
+      - {x: -16, y: -7}
+      - {x: 16, y: -7}
+      - {x: 16, y: -9}
+    - - {x: -16, y: -11}
+      - {x: -16, y: -9}
+      - {x: 16, y: -9}
+      - {x: 16, y: -11}
+    - - {x: -16, y: -13}
+      - {x: -16, y: -11}
+      - {x: 16, y: -11}
+      - {x: 16, y: -13}
+    - - {x: 16, y: -11}
+      - {x: 16, y: -11}
+      - {x: 16, y: -11}
+      - {x: 16, y: -11}
+    - - {x: -16, y: -15}
+      - {x: -16, y: -13}
+      - {x: 16, y: -13}
+      - {x: 16, y: -15}
+    - - {x: -16, y: -17}
+      - {x: -16, y: -15}
+      - {x: 16, y: -15}
+      - {x: 16, y: -17}
+    - - {x: -16, y: -19}
+      - {x: -16, y: -17}
+      - {x: 16, y: -17}
+      - {x: 16, y: -19}
+    - - {x: -16, y: -21}
+      - {x: -16, y: -19}
+      - {x: 16, y: -19}
+      - {x: 16, y: -21}
+    - - {x: -16, y: -23}
+      - {x: -16, y: -21}
+      - {x: 16, y: -21}
+      - {x: 16, y: -23}
+    - - {x: -16, y: -25}
+      - {x: -16, y: -23}
+      - {x: 16, y: -23}
+      - {x: 16, y: -25}
+    - - {x: -16, y: -27}
+      - {x: -16, y: -25}
+      - {x: 16, y: -25}
+      - {x: 16, y: -27}
+    - - {x: -16, y: -29}
+      - {x: -16, y: -27}
+      - {x: 16, y: -27}
+      - {x: 16, y: -29}
+    - - {x: -16, y: -31}
+      - {x: -16, y: -29}
+      - {x: 16, y: -29}
+      - {x: 16, y: -31}
+    - - {x: -16, y: -33}
+      - {x: -16, y: -31}
+      - {x: 16, y: -31}
+      - {x: 16, y: -33}
+    physicsShape: []
+    bones: []
+    spriteID: 8caa4daa82c322643bd52c038ea5afb7
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
