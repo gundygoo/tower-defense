@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public abstract class BaseTower : MonoBehaviour
 {
@@ -9,6 +10,18 @@ public abstract class BaseTower : MonoBehaviour
 
     // The range of the tower
     protected int range;
+
+    // The image for the tower
+    protected Image towerImage;
+
+    // Placeholder sprite for the tower
+    public Sprite tower;
+
+    // The Idle Animation for the tower 
+    public Animation towerIdle;
+
+    // The Attacking Animation for the tower
+    public Animation towerAttack;
 
     // The rate of fire of the tower
     protected int rateOfFire;
