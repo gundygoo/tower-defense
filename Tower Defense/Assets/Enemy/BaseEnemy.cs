@@ -34,8 +34,9 @@ public abstract class BaseEnemy : MonoBehaviour,  IBaseEnemy
         throw new System.NotImplementedException();
     }
 
+    //Base imp of UpdateSpeed - Should be overrid
     public void UpdateSpeed(int updateSpeedAmount)
     {
-        throw new System.NotImplementedException();
+        speed += updateSpeedAmount;
     }
 }

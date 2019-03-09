@@ -13,21 +13,17 @@ public class BaseTower : MonoBehaviour
     // The rate of fire of the tower
     protected int rateOfFire;
 
+    protected Attack attack;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        attack = Attack.Fire;
     }
 
     // Update is called once per frame
     void Update()
     {
         
-    }
-
-    // Attack the enemy
-    public enum Attack
-    {
-
     }
 }

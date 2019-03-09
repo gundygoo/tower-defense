@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class TargetedTower : BaseTower
 {
+
+    protected IBaseEnemy target;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,10 +17,5 @@ public class TargetedTower : BaseTower
     void Update()
     {
         
-    }
-
-    public IBaseEnemy Target()
-    {
-        throw new System.NotImplementedException();
     }
 }
