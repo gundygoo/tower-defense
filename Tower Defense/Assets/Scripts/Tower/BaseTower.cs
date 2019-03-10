@@ -23,6 +23,7 @@ public abstract class BaseTower : MonoBehaviour
     // The rate of fire of the tower
     protected int rateOfFire;
 
+    // The attack function
     protected Attack attack;
 
     protected abstract void Init();
