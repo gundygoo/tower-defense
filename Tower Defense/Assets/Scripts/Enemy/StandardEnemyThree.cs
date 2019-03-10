@@ -7,7 +7,7 @@ public class StandardEnemyThree : BaseEnemy
     protected override void Init()
     {
         health = 300;
-        speed = 50;
+        speed = 3;
     }
 
     protected override void TakeDamage(int updateHealthAmount)

@@ -7,7 +7,7 @@ public class SlowEnemy : BaseEnemy
     protected override void Init()
     {
         health = 500;
-        speed = 25;
+        speed = 1;
     }
 
     protected override void TakeDamage(int updateHealthAmount)

@@ -23,10 +23,26 @@ public abstract class BaseEnemy : MonoBehaviour,  IBaseEnemy
     //The sprite for the enemy when it is destroyed
     public Sprite enemySpriteDestroyed;
 
+    //The path to follow
+    private Node[] path;
+
+    //
+    private float timer;
+
+    private int currentNodeIndex = 0;
+
+    private Vector3 currentNodePosition;
+
+    private Vector3 previousPosition;
+
     // Start is called before the first frame update
     void Start()
     {
         enemyImage = GetComponent<Image>();
+        path = GameObject.FindGameObjectWithTag("path-manager").GetComponent<PathManager>().GetPath();
+        previousPosition = gameObject.transform.position;
+        SetUpNextNode();
+
         Init();
     }
 
@@ -39,7 +55,21 @@ public abstract class BaseEnemy : MonoBehaviour,  IBaseEnemy
     //Move the Enemy
     protected void Move()
     {
-        //move along the track a value corresponding to the current speed of the object
+        timer += Time.deltaTime * speed;
+
+        if (gameObject.transform.position != currentNodePosition)
+        {
+            gameObject.transform.position = Vector3.Lerp(previousPosition, currentNodePosition, timer);
+        }
+        else
+        {
+            if (currentNodeIndex < path.Length - 1)
+            {
+                previousPosition = path[currentNodeIndex].transform.position;
+                currentNodeIndex++;
+                SetUpNextNode();
+            }
+        }
     }
 
     //Init the Enemy
@@ -72,4 +102,10 @@ public abstract class BaseEnemy : MonoBehaviour,  IBaseEnemy
 
     //Indicate to the child class that the enemy has died
     protected abstract void EnemyDied();
+
+    private void SetUpNextNode()
+    {
+        timer = 0;
+        currentNodePosition = path[currentNodeIndex].transform.position;
+    }
 }
